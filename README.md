@@ -1,11 +1,12 @@
- ```shell
- curl -ssL https://git.io/shell-hello | sh -s world
- ```
+```shell
+curl -sSL https://5hl.github.io/hello | sh -s world
+```
+
 
 ```shell
-curl -sSL https://5hl.github.io/s/hello | sh -s world
+curl -i https://git.io -F "url=https://raw.githubusercontent.com/5hl/5hl.github.io/m/hello" -F "code=5hl-hello"
 ```
 
 ```shell
-curl https://raw.githubusercontent.com/5hl/s/m/hello | bash -s
+curl -ssL https://git.io/5hl-hello | sh -s world
 ```
